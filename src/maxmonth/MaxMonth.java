@@ -1,3 +1,4 @@
+package maxmonth;
 
 import java.util.Scanner;
 
