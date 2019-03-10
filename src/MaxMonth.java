@@ -37,6 +37,7 @@ public class MaxMonth {
 	}
 
 	public static void main(String[] args) {
+		String PROMPT="month>";
 		// 입력준비
 		Scanner scanner = new Scanner(System.in);
 		MaxMonth Max = new MaxMonth();
@@ -46,10 +47,11 @@ public class MaxMonth {
 
 			System.out.println("달을 입력해주세요");
 //int month에 입력치 입력
+			System.out.println(PROMPT);
 			int month = scanner.nextInt();
 
 			System.out.printf("%d월은 %d일까지 있습니다.\n", month, Max.MaxdaysOfMonth(month));
-			
+
 		}
 		scanner.close();
 		System.out.println("bye!bye!");
